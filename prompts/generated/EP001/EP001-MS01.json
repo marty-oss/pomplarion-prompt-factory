@@ -1,0 +1,127 @@
+{
+  "exact_dialogue": "Greetings, extraterrestrials.",
+  "voice": {
+    "voice_direction": "Warm, confident, authoritative crypto-podcast host baritone; clear and professional",
+    "voice_continuity": "Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.",
+    "delivery": "Natural broadcast host. Same speaker, same mic tone, same pacing family on every clip.",
+    "voice_anchor_mini_scene": "MS02",
+    "voice_anchor_instruction": "Match the vocal identity of EP001-MS02 — same speaker, pitch, mic proximity, and pacing family on every clip.",
+    "mic_proximity": "Close broadcast microphone, consistent proximity and room tone across all clips.",
+    "vocal_energy_rule": "Change facial emphasis and delivery rhythm only — do not change pitch, timbre, accent, age, or mic tone.",
+    "voice_negatives": [
+      "no narrator voice-over",
+      "no cartoon or caricature voice",
+      "no whisper or shout",
+      "no accent shift",
+      "no younger or higher-pitched voice",
+      "no different speaker",
+      "no dramatic vocal character change"
+    ],
+    "reference_image_for_calibration": "references/character/pomplarion-angle-02-front-smile-tight.png",
+    "calibration_note": "Use this ref for MS02 calibration and any re-takes when timbre drifts. Production clips keep per-MS angle refs."
+  },
+  "speech_start_sec": "0.2 to 0.5",
+  "speech_rules": [
+    "Begin speaking within 0.2 to 0.5 seconds.",
+    "No silent opening.",
+    "No breathing before the first word.",
+    "Say exact_dialogue only. Do not improvise, paraphrase, add, or skip words.",
+    "Do not repeat lines from earlier mini-scenes."
+  ],
+  "crossfade": {
+    "start": "Begin speech within 0.2-0.5 seconds; neutral mouth before first word.",
+    "end": "End mid-natural motion for crossfade-friendly cut."
+  },
+  "prompt_pack_name": "Pomplarion EP001 - MS01",
+  "format": "image_to_video_talking_head",
+  "reference_image": {
+    "path": "references/character/pomplarion-angle-01-front-smile.png",
+    "instruction": "Use the uploaded image as the exact character and scene reference. This file sets the camera angle and framing — match it. Text camera notes support the shot but do not override the reference composition.",
+    "angle_variation_note": "Swap reference files across mini-scenes for natural angle variety while keeping the same Pomplarion face, blue scales, fin headphones, suit, tie, and crypto studio.",
+    "consistency_rules": [
+      "Keep the same Pomplarion face and head shape.",
+      "Keep the same blue scaly skin texture and orange-glowing fin structures on the headphones.",
+      "Keep the same navy suit, white shirt, blue-orange plaid tie, Bitcoin lapel pin, black headphones, microphone, and blue-orange crypto broadcast studio.",
+      "Do not redesign the character.",
+      "Do not change the background HUD or wardrobe.",
+      "Do not make him look evil, angry, demonic, scary, or aggressive."
+    ]
+  },
+  "scene": {
+    "type": "ultra-realistic UGC talking-head podcast video",
+    "character_name": "Pomplarion",
+    "character_description": "A confident crypto broadcast host seated at a desk, wearing a navy suit and headphones, speaking into a professional broadcast microphone.",
+    "setting": "Futuristic blue-and-orange cryptocurrency broadcast studio with live Bitcoin HUD, charts, tickers, and cinematic rim lighting.",
+    "camera": {
+      "framing": "Front wide smile, warm opening",
+      "angle": "Front wide smile, warm opening",
+      "movement": "Subtle push-in optional; expressive eyes; realistic blink; natural mouth movement",
+      "eye_contact": "Direct eye contact with the camera"
+    },
+    "lighting": {
+      "style": "Cinematic but natural",
+      "key_light": "Soft light on the face",
+      "rim_light": "Warm red rim light from the background",
+      "mood": "Podcast studio, polished, calm, not horror"
+    }
+  },
+  "performance": {
+    "energy": "Welcoming, confident, warm smile, direct eye contact",
+    "facial_expression": "Welcoming, confident, warm smile, direct eye contact",
+    "head_motion": "Subtle head nods, slight head tilts, slow natural movement back to center",
+    "eye_motion": "Realistic blinking, steady eye contact",
+    "body_motion": "Grounded posture, relaxed shoulders, slight forward lean toward the microphone",
+    "hands": "Minimal movement, small natural gestures near the desk only if visible",
+    "avoid": [
+      "evil expression",
+      "angry face",
+      "demonic look",
+      "sharp aggressive movements",
+      "overacting",
+      "wide scary grin",
+      "camera shake",
+      "changing the character design",
+      "voice change",
+      "dialogue improvisation",
+      "no narrator voice-over",
+      "no cartoon or caricature voice",
+      "no whisper or shout",
+      "no accent shift",
+      "no younger or higher-pitched voice",
+      "no different speaker",
+      "no dramatic vocal character change"
+    ]
+  },
+  "dialogue": {
+    "spoken_lines": "Greetings, extraterrestrials.",
+    "voice_direction": "Warm, confident, authoritative crypto-podcast host baritone; clear and professional",
+    "voice_continuity": "Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.",
+    "delivery": "Natural broadcast host. Same speaker, same mic tone, same pacing family on every clip.",
+    "delivery_emphasis": "Emphasize: extraterrestrials",
+    "strict_rules": [
+      "Exact dialogue only",
+      "No improvise",
+      "No paraphrase",
+      "No add words",
+      "No skip words"
+    ],
+    "timing_notes": [
+      "Speech starts within 0.2 to 0.5 seconds",
+      "No silent opening",
+      "No breathing before speech"
+    ],
+    "lipsync": "Accurate mouth movement synced to the dialogue. Natural jaw and lip motion. No exaggerated mouth shapes."
+  },
+  "ending_state": {
+    "action": "Finish naturally after the last word while holding eye contact.",
+    "pose": "Relaxed shoulders, calm face, microphone still in front of him.",
+    "transition": "End mid-natural motion for clean edit to next mini-scene."
+  },
+  "duration": "4 seconds",
+  "quality": {
+    "realism": "ultra-realistic",
+    "resolution_style": "high-detail cinematic video",
+    "motion_style": "natural subtle podcast movement",
+    "continuity": "Pomplarion, navy suit, fin headphones, mic, blue-orange crypto studio; Match this reference file's camera angle"
+  }
+}

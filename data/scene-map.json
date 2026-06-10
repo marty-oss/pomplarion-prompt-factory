@@ -2,5 +2,228 @@
   "project": "pomplarion",
   "version": "1.0",
   "default_reference_image": "references/character/pomplarion-angle-06-front-direct.png",
-  "episodes": []
+  "episodes": [
+    {
+      "episode_id": "EP001",
+      "title": "Intro — Clinton Donnelly",
+      "script_file": "scripts/episodes/EP001-intro.md",
+      "voice_episode_note": "Locked voice: config/voice-lock.json (identical voice_direction on every mini-scene)",
+      "voice_calibration_reference_image": "references/character/pomplarion-angle-02-front-smile-tight.png",
+      "voice_calibration_note": "Use this ref for MS02 calibration and any re-takes when timbre drifts. Production clips keep per-MS angle refs.",
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "title": "Opening — host intro",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS01",
+              "dialogue": "Greetings, extraterrestrials.",
+              "reference_image": "references/character/pomplarion-angle-01-front-smile.png",
+              "camera_angle": "Front wide smile, warm opening",
+              "duration_sec": 4,
+              "performance_notes": "Welcoming, confident, warm smile, direct eye contact",
+              "voice_notes": "Emphasize: extraterrestrials",
+              "motion_notes": "Subtle push-in optional; expressive eyes; realistic blink; natural mouth movement",
+              "continuity_notes": "Pomplarion, navy suit, fin headphones, mic, blue-orange crypto studio; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS02",
+              "dialogue": "I am Pomplarion. Pom-PLAIR-ee-on.",
+              "reference_image": "references/character/pomplarion-angle-02-front-smile-tight.png",
+              "camera_angle": "Front tight smile, confident name introduction",
+              "duration_sec": 5,
+              "performance_notes": "Clear name introduction, confident, slow pronunciation on Pom-PLAIR-ee-on",
+              "voice_notes": "Pronounce Pom-PLAIR-ee-on slowly and clearly",
+              "motion_notes": "Small head movement on name; steady eye contact; realistic blinking",
+              "continuity_notes": "Same identity and studio as MS01; tighter framing via reference; Match this reference file's camera angle"
+            }
+          ]
+        },
+        {
+          "scene_id": "S02",
+          "title": "Galaxy origin — Bitcoin solved money",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS03",
+              "dialogue": "I come from a galaxy that solved the money problem a long time ago.",
+              "reference_image": "references/character/pomplarion-angle-06-front-direct.png",
+              "camera_angle": "Front direct medium close-up, reflective authority",
+              "duration_sec": 6,
+              "performance_notes": "Reflective, authoritative, slight nod on solved the money problem",
+              "voice_notes": "Emphasize: solved the money problem",
+              "motion_notes": "Subtle nod; expressive eyes; small head movement",
+              "continuity_notes": "Same suit, fin headphones, mic, crypto studio; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS04",
+              "dialogue": "The answer was Bitcoin.",
+              "reference_image": "references/character/pomplarion-angle-07-front-wide-hud.png",
+              "camera_angle": "Front wide with full BTC HUD visible",
+              "duration_sec": 4,
+              "performance_notes": "Confident reveal, warm smile on Bitcoin, direct eye contact",
+              "voice_notes": "Emphasize: Bitcoin",
+              "motion_notes": "Small confident nod; steady framing with HUD in background",
+              "continuity_notes": "Wide HUD reference for Bitcoin beat; Match this reference file's camera angle"
+            }
+          ]
+        },
+        {
+          "scene_id": "S03",
+          "title": "Earth discovery — IRS wants a piece",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS05",
+              "dialogue": "But I have been on Earth long enough to discover",
+              "reference_image": "references/character/pomplarion-angle-04-three-quarter-right.png",
+              "camera_angle": "Three-quarter right, thoughtful lean",
+              "duration_sec": 5,
+              "performance_notes": "Thoughtful, mildly amused, conversational",
+              "voice_notes": "Emphasize: on Earth long enough",
+              "motion_notes": "Subtle lean; expressive eyes; natural blink",
+              "continuity_notes": "Switch to three-quarter reference; same wardrobe and studio; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS06",
+              "dialogue": "that every time an extraterrestrial touches Bitcoin on this planet,",
+              "reference_image": "references/character/pomplarion-angle-05-three-quarter-left.png",
+              "camera_angle": "Three-quarter left smile, dry observation",
+              "duration_sec": 6,
+              "performance_notes": "Dry amusement, controlled delivery, slight smirk",
+              "voice_notes": "Dry amusement on: extraterrestrial touches Bitcoin",
+              "motion_notes": "Subtle smirk; small head movement; continue mid-thought from MS05",
+              "continuity_notes": "Same three-quarter family; continuous IRS setup beat; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS07",
+              "dialogue": "something called the IRS wants a piece of it.",
+              "reference_image": "references/character/pomplarion-angle-03-front-close.png",
+              "camera_angle": "Tight front close-up, mic prominent, skeptical punchline",
+              "duration_sec": 5,
+              "performance_notes": "Skeptical smirk, eyebrow raise on IRS, dry punchline",
+              "voice_notes": "Emphasize: IRS; dry punchline on wants a piece of it",
+              "motion_notes": "Eyebrow raise on IRS; subtle smirk; realistic blink",
+              "continuity_notes": "Tight close-up for punchline crop; no evil expression; Match this reference file's camera angle"
+            }
+          ]
+        },
+        {
+          "scene_id": "S04",
+          "title": "Clinton Donnelly introduction",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS08",
+              "dialogue": "So I brought in Clinton Donnelly,",
+              "reference_image": "references/character/pomplarion-angle-06-front-direct.png",
+              "camera_angle": "Front direct, respectful pivot",
+              "duration_sec": 4,
+              "performance_notes": "Respectful, warm authority, slight nod",
+              "voice_notes": "Emphasize: Clinton Donnelly",
+              "motion_notes": "Small respectful nod; steady eye contact",
+              "continuity_notes": "Return to front direct reference; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS09",
+              "dialogue": "one of the few humans who genuinely understands crypto taxation.",
+              "reference_image": "references/character/pomplarion-angle-08-three-quarter-alt.png",
+              "camera_angle": "Three-quarter alternate, analytical respect",
+              "duration_sec": 6,
+              "performance_notes": "Analytical, respectful, steady pace on crypto taxation",
+              "voice_notes": "Emphasize: genuinely understands crypto taxation",
+              "motion_notes": "Subtle push-in; minimal head movement",
+              "continuity_notes": "Three-quarter alternate ref; same studio; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS10",
+              "dialogue": "Clinton, welcome to Pumping Planets.",
+              "reference_image": "references/character/pomplarion-angle-01-front-smile.png",
+              "camera_angle": "Front wide smile, show welcome",
+              "duration_sec": 5,
+              "performance_notes": "Warm welcome, confident smile, direct eye contact",
+              "voice_notes": "Emphasize: Pumping Planets",
+              "motion_notes": "Open welcoming gesture optional; warm smile; natural blink",
+              "continuity_notes": "Wide front smile for welcome beat; Match this reference file's camera angle"
+            }
+          ]
+        },
+        {
+          "scene_id": "S05",
+          "title": "First question — IRS individual income",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS11",
+              "dialogue": "Hey, Clinton, tell me, why does the IRS tax individual income?",
+              "reference_image": "references/character/pomplarion-angle-06-front-direct.png",
+              "camera_angle": "Front direct, curious interviewer energy",
+              "duration_sec": 6,
+              "performance_notes": "Curious, engaged, conversational interviewer tone",
+              "voice_notes": "Emphasize: why does the IRS tax individual income",
+              "motion_notes": "Slight lean toward mic; expressive eyes; natural mouth movement",
+              "continuity_notes": "Clinton answer is off-camera; Pomplarion only; Match this reference file's camera angle"
+            }
+          ]
+        },
+        {
+          "scene_id": "S06",
+          "title": "Zylos Nine tangent — Trump tariff punchline",
+          "mini_scenes": [
+            {
+              "mini_scene_id": "MS12",
+              "dialogue": "Well Clinton, I come from a planet called Zylos Nine,",
+              "reference_image": "references/character/pomplarion-angle-04-three-quarter-right.png",
+              "camera_angle": "Three-quarter right, playful pivot",
+              "duration_sec": 5,
+              "performance_notes": "Playful tangent energy, slight smirk, conversational",
+              "voice_notes": "Emphasize: Zylos Nine",
+              "motion_notes": "Small head tilt; subtle smirk; natural blink",
+              "continuity_notes": "Pomplarion tangent — not Clinton response; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS13",
+              "dialogue": "and President Trump tried to tariff our planet last year.",
+              "reference_image": "references/character/pomplarion-angle-09-profile-left.png",
+              "camera_angle": "Left profile, dry deadpan setup",
+              "duration_sec": 6,
+              "performance_notes": "Dry deadpan, amused disbelief, steady delivery",
+              "voice_notes": "Dry deadpan on: tariff our planet",
+              "motion_notes": "Controlled stillness; one slow blink; subtle smirk",
+              "continuity_notes": "Profile reference for comedic beat; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS14",
+              "dialogue": "I think it was about 200 billion dollars,",
+              "reference_image": "references/character/pomplarion-angle-03-front-close.png",
+              "camera_angle": "Tight close-up, casual estimate",
+              "duration_sec": 5,
+              "performance_notes": "Casual shrug energy, amused uncertainty on amount",
+              "voice_notes": "Casual emphasis on: 200 billion dollars",
+              "motion_notes": "Small shrug optional; eyebrow raise; natural blink",
+              "continuity_notes": "Tight close-up for number beat; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS15",
+              "dialogue": "but he had to give it back this year.",
+              "reference_image": "references/character/pomplarion-angle-05-three-quarter-left.png",
+              "camera_angle": "Three-quarter left, dry punchline setup",
+              "duration_sec": 5,
+              "performance_notes": "Dry amusement, knowing smile, measured pace",
+              "voice_notes": "Dry amusement on: give it back this year",
+              "motion_notes": "Knowing smile; subtle nod; continue from MS14",
+              "continuity_notes": "Same tangent beat; Match this reference file's camera angle"
+            },
+            {
+              "mini_scene_id": "MS16",
+              "dialogue": "So none of that is going to the US government.",
+              "reference_image": "references/character/pomplarion-angle-02-front-smile-tight.png",
+              "camera_angle": "Front tight smile, deadpan punchline",
+              "duration_sec": 5,
+              "performance_notes": "Deadpan punchline, confident smirk, direct eye contact",
+              "voice_notes": "Flat deadpan punchline on: US government",
+              "motion_notes": "Hold stillness on punchline; slow blink after beat",
+              "continuity_notes": "Tight smile for closing punchline; Match this reference file's camera angle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

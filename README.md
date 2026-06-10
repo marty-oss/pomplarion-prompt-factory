@@ -5,11 +5,21 @@ Local production workflow for **Pomplarion** — crypto broadcast host avatar. S
 **Repo:** https://github.com/marty-oss/pomplarion-prompt-factory  
 **Sibling:** [Zorak Rogan Prompt Factory](https://github.com/marty-oss/zorak-rogan-prompt-factory)
 
+## EP001 — Intro (Clinton Donnelly)
+
+**16 mini-scenes (MS01–MS16)** — Pomplarion intro, first question, and Zylos Nine tangent. Clinton answers are **off-camera**.
+
+```bash
+python3 tools/generate_prompts.py --episode EP001
+python3 tools/verify_voice_lock.py --episode EP001
+open prompts/generated/EP001/compact/EP001-MS01-voice.json
+```
+
 ## v1 scaffold
 
 - 10 angle reference PNGs in `references/character/`
 - Identity + voice lock in `config/`
-- Generator tools (no episodes in scene-map yet)
+- Generator tools + EP001 scene map
 
 ## Quick workflow (when episodes exist)
 

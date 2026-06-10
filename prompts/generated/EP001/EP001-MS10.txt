@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"Clinton, welcome to Pumping Planets."
+
+SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
+
+DELIVERY EMPHASIS (this scene only):
+Emphasize: Pumping Planets
+
+REFERENCE: references/character/pomplarion-angle-01-front-smile.png
+
+CAMERA: Front wide smile, show welcome
+
+PERFORMANCE: Warm welcome, confident smile, direct eye contact
+
+MOTION: Open welcoming gesture optional; warm smile; natural blink
+
+DURATION: ~5 seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.

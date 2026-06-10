@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"So none of that is going to the US government."
+
+SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
+
+DELIVERY EMPHASIS (this scene only):
+Flat deadpan punchline on: US government
+
+REFERENCE: references/character/pomplarion-angle-02-front-smile-tight.png
+
+CAMERA: Front tight smile, deadpan punchline
+
+PERFORMANCE: Deadpan punchline, confident smirk, direct eye contact
+
+MOTION: Hold stillness on punchline; slow blink after beat
+
+DURATION: ~5 seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.

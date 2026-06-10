@@ -1,0 +1,36 @@
+{
+  "exact_dialogue": "Clinton, welcome to Pumping Planets.",
+  "voice": {
+    "voice_direction": "Warm, confident, authoritative crypto-podcast host baritone; clear and professional",
+    "voice_continuity": "Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.",
+    "delivery": "Natural broadcast host. Same speaker, same mic tone, same pacing family on every clip.",
+    "voice_anchor_mini_scene": "MS02",
+    "voice_anchor_instruction": "Match the vocal identity of EP001-MS02 — same speaker, pitch, mic proximity, and pacing family on every clip.",
+    "mic_proximity": "Close broadcast microphone, consistent proximity and room tone across all clips.",
+    "vocal_energy_rule": "Change facial emphasis and delivery rhythm only — do not change pitch, timbre, accent, age, or mic tone.",
+    "voice_negatives": [
+      "no narrator voice-over",
+      "no cartoon or caricature voice",
+      "no whisper or shout",
+      "no accent shift",
+      "no younger or higher-pitched voice",
+      "no different speaker",
+      "no dramatic vocal character change"
+    ],
+    "reference_image_for_calibration": "references/character/pomplarion-angle-02-front-smile-tight.png",
+    "calibration_note": "Use this ref for MS02 calibration and any re-takes when timbre drifts. Production clips keep per-MS angle refs."
+  },
+  "speech_start_sec": "0.2 to 0.5",
+  "speech_rules": [
+    "Begin speaking within 0.2 to 0.5 seconds.",
+    "No silent opening.",
+    "No breathing before the first word.",
+    "Say exact_dialogue only. Do not improvise, paraphrase, add, or skip words.",
+    "Do not repeat lines from earlier mini-scenes."
+  ],
+  "reference_image": {
+    "path": "references/character/pomplarion-angle-01-front-smile.png"
+  },
+  "prompt_pack_name": "Pomplarion EP001 - MS10 (compact voice)",
+  "format": "image_to_video_talking_head_compact"
+}

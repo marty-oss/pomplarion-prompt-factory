@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"one of the few humans who genuinely understands crypto taxation."
+
+SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
+
+DELIVERY EMPHASIS (this scene only):
+Emphasize: genuinely understands crypto taxation
+
+REFERENCE: references/character/pomplarion-angle-08-three-quarter-alt.png
+
+CAMERA: Three-quarter alternate, analytical respect
+
+PERFORMANCE: Analytical, respectful, steady pace on crypto taxation
+
+MOTION: Subtle push-in; minimal head movement
+
+DURATION: ~6 seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.

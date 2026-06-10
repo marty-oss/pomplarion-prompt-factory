@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"Greetings, extraterrestrials."
+
+SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
+
+DELIVERY EMPHASIS (this scene only):
+Emphasize: extraterrestrials
+
+REFERENCE: references/character/pomplarion-angle-01-front-smile.png
+
+CAMERA: Front wide smile, warm opening
+
+PERFORMANCE: Welcoming, confident, warm smile, direct eye contact
+
+MOTION: Subtle push-in optional; expressive eyes; realistic blink; natural mouth movement
+
+DURATION: ~4 seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.

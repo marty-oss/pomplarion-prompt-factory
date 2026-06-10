@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"But I have been on Earth long enough to discover"
+
+SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
+
+DELIVERY EMPHASIS (this scene only):
+Emphasize: on Earth long enough
+
+REFERENCE: references/character/pomplarion-angle-04-three-quarter-right.png
+
+CAMERA: Three-quarter right, thoughtful lean
+
+PERFORMANCE: Thoughtful, mildly amused, conversational
+
+MOTION: Subtle lean; expressive eyes; natural blink
+
+DURATION: ~5 seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.
