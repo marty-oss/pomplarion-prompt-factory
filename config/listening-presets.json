@@ -2,8 +2,10 @@
   "episode_id": "EP001",
   "clip_type": "listening_silent",
   "duration_sec": 8,
-  "stitch_clips_recommended": 3,
-  "stitch_target_seconds": "16 to 24",
+  "stitch_group": "clinton_answer_250",
+  "stitch_clips_recommended": 22,
+  "stitch_target_seconds": "170 (2:50 — trim from 22×8s)",
+  "stitch_loop_note": "After MS11, loop L01→L06 in order until 22 clips (176s), then trim tail to 2:50. Guest audio only.",
   "no_speech_rules": [
     "No spoken words. No voice. No narration. No lip-sync to dialogue.",
     "Mouth closed or neutral rest — no talking, mumbling, whisper, or vocal sounds.",

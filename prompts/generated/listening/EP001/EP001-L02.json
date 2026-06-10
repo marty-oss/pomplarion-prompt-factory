@@ -1,0 +1,83 @@
+{
+  "clip_type": "listening_silent",
+  "exact_dialogue": "",
+  "no_speech_rules": [
+    "No spoken words. No voice. No narration. No lip-sync to dialogue.",
+    "Mouth closed or neutral rest — no talking, mumbling, whisper, or vocal sounds.",
+    "No microphone pickup of host speech — silent reaction clip only."
+  ],
+  "duration_sec": 8,
+  "prompt_pack_name": "Pomplarion EP001 - L02 (silent listen)",
+  "format": "image_to_video_silent_listening",
+  "reference_image": {
+    "path": "references/character/pomplarion-angle-09-profile-left.png",
+    "instruction": "Use the uploaded image as the exact character and scene reference. Match camera angle and framing. Host is listening, not speaking.",
+    "consistency_rules": [
+      "Keep the same Pomplarion face and head shape.",
+      "Keep the same blue scaly skin texture and orange-glowing fin structures on the headphones.",
+      "Keep the same navy suit, white shirt, blue-orange plaid tie, Bitcoin lapel pin, black headphones, microphone, and blue-orange crypto broadcast studio.",
+      "Do not redesign the character.",
+      "Do not change the background HUD or wardrobe.",
+      "Do not make him look evil, angry, demonic, scary, or aggressive."
+    ]
+  },
+  "scene": {
+    "type": "ultra-realistic silent podcast reaction shot",
+    "character_name": "Pomplarion",
+    "character_description": "Crypto broadcast host seated at desk with headphones and microphone, listening attentively to an off-screen guest.",
+    "setting": "Blue-orange crypto broadcast studio; same as speaking scenes.",
+    "camera": {
+      "framing": "Left profile medium close-up, still jaw, listening",
+      "angle": "Left profile medium close-up, still jaw, listening",
+      "movement": "Static camera or very subtle slow drift; no sudden moves",
+      "eye_contact": "Eyes toward guest or lens — attentive listen, not performing to camera"
+    }
+  },
+  "performance": {
+    "energy": "Profile listen; calm neutral expression; engaged toward guest",
+    "facial_expression": "Calm attentive listener; neutral or faint closed-mouth expression",
+    "head_motion": "Micro-nods and slight tilts only; return to center",
+    "eye_motion": "Natural blinking every 3-5 seconds; subtle eye tracking",
+    "body_motion": [
+      "Slow natural chest and shoulder breathing visible throughout.",
+      "Realistic blinking every 3 to 5 seconds.",
+      "Small head movements only: micro-nods, slight tilt toward guest or mic, slow return to center.",
+      "Subtle eye movement — attentive listening, not staring blankly.",
+      "Minimal hand movement; hands rest on desk if visible."
+    ],
+    "mouth": [
+      "Lips closed or slightly parted for idle breathing only — not shaped for words.",
+      "No jaw movement for speech.",
+      "No lip flap."
+    ],
+    "hands": "Still or minimal idle movement on desk",
+    "avoid": [
+      "any speech or voice",
+      "lip-sync to dialogue",
+      "talking",
+      "mumbling",
+      "evil expression",
+      "angry face",
+      "overacting",
+      "large gestures",
+      "camera shake",
+      "character redesign"
+    ]
+  },
+  "audio": {
+    "host_voice": "NONE — completely silent",
+    "ambient": "Optional very subtle room tone only; no host speech"
+  },
+  "ending_state": {
+    "action": "Hold attentive listen pose through full duration.",
+    "pose": "Breathing visible, eyes alive, mouth at rest.",
+    "transition": "End mid-blink or mid-nod for invisible stitch to next listen clip."
+  },
+  "duration": "8 seconds",
+  "stitch_group": "clinton_answer_250",
+  "quality": {
+    "realism": "ultra-realistic",
+    "motion_style": "natural idle listening — breathing, blink, micro head movement",
+    "continuity": "Same identity; no speech"
+  }
+}

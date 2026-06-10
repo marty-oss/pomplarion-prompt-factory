@@ -480,6 +480,19 @@ def write_stitch_notes(eid: str, clip_ids: list[str], presets: dict[str, Any]) -
     dur = presets.get("duration_sec", 8)
     n = presets.get("stitch_clips_recommended", 3)
     target = presets.get("stitch_target_seconds", "16 to 24")
+    loop_note = presets.get("stitch_loop_note", "")
+    base_ids = clip_ids if clip_ids else ["L01"]
+    loop_pattern = " → ".join(base_ids)
+    if n > len(base_ids):
+        example_order = " → ".join(
+            (base_ids * ((n // len(base_ids)) + 1))[: min(n, 8)]
+        )
+        if n > 8:
+            example_order += " → … (repeat pattern)"
+        stitch_order = f"Loop **{loop_pattern}** until **{n} clips** ({n} × {dur}s = {n * dur}s)"
+    else:
+        example_order = " → ".join(base_ids[:n])
+        stitch_order = f"**{example_order}**"
     lines = [
         f"# {eid} — Silent listening stitch notes",
         "",
@@ -487,19 +500,22 @@ def write_stitch_notes(eid: str, clip_ids: list[str], presets: dict[str, Any]) -
         "",
         "## Render",
         "",
-        f"Generate **{n} clips** at **{dur}s** each (e.g. `{'`, `'.join(clip_ids[:n])}`).",
-        "Paste `EP001-Lxx.json` into Grok Imagine with matching reference PNG.",
+        f"Generate **each** base listen clip once at **{dur}s** ({loop_pattern}).",
+        f"Re-use and loop in edit to reach **{n} clips** total for **{target}**.",
+        f"Paste `{eid}-Lxx.json` into Grok Imagine with matching reference PNG.",
         "",
         "## Stitch in edit",
         "",
-        f"- Cut order: **{' → '.join(clip_ids[:n])}** (or any 3 from L01–L06)",
+        f"- Cut order: {stitch_order}",
+        f"- Example start: {example_order}",
         "- Cut on **blink** or **micro-nod** for invisible joins",
-        f"- Target total hold: **{target} seconds** ({n} × {dur}s)",
+        f"- Target total hold: **{target}**",
         "- Audio: **guest only** — mute Pomplarion track",
         "",
-        "## All listen clips",
-        "",
     ]
+    if loop_note:
+        lines.extend(["## Context", "", loop_note, ""])
+    lines.extend(["## All listen clips", ""])
     for lid in clip_ids:
         lines.append(f"- `{eid}-{lid}.json` + ref from listening-scene-map")
     out = LISTENING_OUTPUT_DIR / eid / f"{eid}-STITCH-NOTES.md"

@@ -1,0 +1,22 @@
+SILENT LISTENING — NO SPEECH
+
+clip_type: listening_silent
+exact_dialogue: (none — do not speak)
+
+NO SPEECH (strict):
+- No spoken words, no voice, no narration, no lip-sync.
+- Mouth closed or neutral idle only. No talking or mumbling.
+
+DURATION: 8 seconds (full clip — use entire length with idle motion)
+
+MOTION:
+Breathing, blinking, one slow micro-nod mid-clip; mouth closed
+
+PERFORMANCE:
+Attentive crypto host listening to Clinton off-camera; soft eye contact toward guest side
+
+REFERENCE: references/character/pomplarion-angle-10-profile-listen.png
+
+CAMERA: Side profile medium close-up, attentive listen toward guest
+
+AVOID: speech, voice, lip-sync, lip flap, evil face, overacting, large gestures.

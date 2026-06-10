@@ -9,10 +9,14 @@ Local production workflow for **Pomplarion** — crypto broadcast host avatar. S
 
 **16 mini-scenes (MS01–MS16)** — Pomplarion intro, first question, and Zylos Nine tangent. Clinton answers are **off-camera**.
 
+**Silent listening (L01–L06)** — after MS11, loop 22×8s clips for Clinton's **~2:50** answer (no host speech).
+
 ```bash
 python3 tools/generate_prompts.py --episode EP001
+python3 tools/generate_prompts.py --mode listening --episode EP001
 python3 tools/verify_voice_lock.py --episode EP001
 open prompts/generated/EP001/compact/EP001-MS01-voice.json
+open prompts/generated/listening/EP001/EP001-L01.json
 ```
 
 ## v1 scaffold

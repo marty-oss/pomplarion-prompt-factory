@@ -1,0 +1,22 @@
+SILENT LISTENING — NO SPEECH
+
+clip_type: listening_silent
+exact_dialogue: (none — do not speak)
+
+NO SPEECH (strict):
+- No spoken words, no voice, no narration, no lip-sync.
+- Mouth closed or neutral idle only. No talking or mumbling.
+
+DURATION: 8 seconds (full clip — use entire length with idle motion)
+
+MOTION:
+Visible breathing, natural blinks, tiny head tilt toward guest side
+
+PERFORMANCE:
+Profile listen; calm neutral expression; engaged toward guest
+
+REFERENCE: references/character/pomplarion-angle-09-profile-left.png
+
+CAMERA: Left profile medium close-up, still jaw, listening
+
+AVOID: speech, voice, lip-sync, lip flap, evil face, overacting, large gestures.

@@ -2,5 +2,80 @@
   "project": "pomplarion",
   "version": "1.0",
   "default_reference_image": "references/character/pomplarion-angle-10-profile-listen.png",
-  "episodes": []
+  "episodes": [
+    {
+      "episode_id": "EP001",
+      "title": "Silent listening — Clinton answers MS11 (~2:50)",
+      "stitch_group": "clinton_answer_250",
+      "guest_audio_note": "Clinton Donnelly answers off-camera after MS11. Pomplarion on camera, no speech.",
+      "clips": [
+        {
+          "listen_id": "L01",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-10-profile-listen.png",
+          "camera_angle": "Side profile medium close-up, attentive listen toward guest",
+          "duration_sec": 8,
+          "performance_notes": "Attentive crypto host listening to Clinton off-camera; soft eye contact toward guest side",
+          "motion_notes": "Breathing, blinking, one slow micro-nod mid-clip; mouth closed",
+          "continuity_notes": "Pomplarion, navy suit, fin headphones, mic, blue-orange crypto studio; silent"
+        },
+        {
+          "listen_id": "L02",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-09-profile-left.png",
+          "camera_angle": "Left profile medium close-up, still jaw, listening",
+          "duration_sec": 8,
+          "performance_notes": "Profile listen; calm neutral expression; engaged toward guest",
+          "motion_notes": "Visible breathing, natural blinks, tiny head tilt toward guest side",
+          "continuity_notes": "Same identity; no speech"
+        },
+        {
+          "listen_id": "L03",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-03-front-close.png",
+          "camera_angle": "Tight front close-up, mic in frame, listening",
+          "duration_sec": 8,
+          "performance_notes": "Close attentive listen; subtle brow raise once; mouth fully closed",
+          "motion_notes": "Breathing, frequent blinks, minimal stillness; no lip movement",
+          "continuity_notes": "Tight crop; silent reaction only"
+        },
+        {
+          "listen_id": "L04",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-04-three-quarter-right.png",
+          "camera_angle": "Three-quarter right, lean-in listen toward guest",
+          "duration_sec": 8,
+          "performance_notes": "Lean slightly toward guest side; engaged patient listener",
+          "motion_notes": "Slow lean hold, breathing, blink, small nod",
+          "continuity_notes": "Desk visible; silent reaction"
+        },
+        {
+          "listen_id": "L05",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-05-three-quarter-left.png",
+          "camera_angle": "Three-quarter left smile, calm faint closed-mouth listen",
+          "duration_sec": 8,
+          "performance_notes": "Warm attentive listener; faint closed-mouth smile; not speaking",
+          "motion_notes": "Breathing, blinking, micro head tilt; no talking",
+          "continuity_notes": "Warm listen energy; mouth at rest"
+        },
+        {
+          "listen_id": "L06",
+          "clip_type": "listening",
+          "dialogue": "",
+          "reference_image": "references/character/pomplarion-angle-08-three-quarter-alt.png",
+          "camera_angle": "Three-quarter alternate, wide patient listen hold",
+          "duration_sec": 8,
+          "performance_notes": "Wide patient listen; hands still on desk; BTC HUD in background",
+          "motion_notes": "Long idle breathing cycle, two blinks, subtle shoulder shift",
+          "continuity_notes": "Crypto studio HUD visible; completely silent"
+        }
+      ]
+    }
+  ]
 }
