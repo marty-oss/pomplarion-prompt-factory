@@ -1,0 +1,22 @@
+SILENT LISTENING — NO SPEECH
+
+clip_type: listening_silent
+exact_dialogue: (none — do not speak)
+
+NO SPEECH (strict):
+- No spoken words, no voice, no narration, no lip-sync.
+- Mouth closed or neutral idle only. No talking or mumbling.
+
+DURATION: {{duration_sec}} seconds (full clip — use entire length with idle motion)
+
+MOTION:
+{{motion_notes}}
+
+PERFORMANCE:
+{{performance_notes}}
+
+REFERENCE: {{reference_image}}
+
+CAMERA: {{camera_angle}}
+
+AVOID: speech, voice, lip-sync, lip flap, evil face, overacting, large gestures.

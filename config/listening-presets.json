@@ -1,0 +1,36 @@
+{
+  "episode_id": "EP001",
+  "clip_type": "listening_silent",
+  "duration_sec": 8,
+  "stitch_clips_recommended": 3,
+  "stitch_target_seconds": "16 to 24",
+  "no_speech_rules": [
+    "No spoken words. No voice. No narration. No lip-sync to dialogue.",
+    "Mouth closed or neutral rest — no talking, mumbling, whisper, or vocal sounds.",
+    "No microphone pickup of host speech — silent reaction clip only."
+  ],
+  "motion_rules": [
+    "Slow natural chest and shoulder breathing visible throughout.",
+    "Realistic blinking every 3 to 5 seconds.",
+    "Small head movements only: micro-nods, slight tilt toward guest or mic, slow return to center.",
+    "Subtle eye movement — attentive listening, not staring blankly.",
+    "Minimal hand movement; hands rest on desk if visible."
+  ],
+  "mouth_rules": [
+    "Lips closed or slightly parted for idle breathing only — not shaped for words.",
+    "No jaw movement for speech.",
+    "No lip flap."
+  ],
+  "avoid": [
+    "any speech or voice",
+    "lip-sync to dialogue",
+    "talking",
+    "mumbling",
+    "evil expression",
+    "angry face",
+    "overacting",
+    "large gestures",
+    "camera shake",
+    "character redesign"
+  ]
+}

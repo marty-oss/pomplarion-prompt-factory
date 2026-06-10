@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Large media (keep locally; track structure via .gitkeep)
+video/raw/**/*.mp4
+video/raw/**/*.mov
+video/edited/**/*.mp4
+video/edited/**/*.mov
+audio/voice-reference/**/*.mp3
+audio/voice-reference/**/*.wav
+audio/dialogue/**/*.wav
+audio/dialogue/**/*.mp3
+audio/dialogue/**/*.m4a
+audio/music-sfx/**/*.wav
+audio/music-sfx/**/*.mp3
+exports/**/*
+!exports/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.idea/
+.vscode/

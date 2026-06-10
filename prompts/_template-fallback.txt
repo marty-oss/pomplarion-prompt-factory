@@ -1,0 +1,23 @@
+EXACT DIALOGUE (say only this):
+"{{dialogue}}"
+
+SPEECH START: {{speech_start_sec}} seconds. No silent opening. No breathing before speech.
+
+VOICE (locked — identical every clip):
+{{voice_direction}}
+{{continuity_instruction}}
+
+DELIVERY EMPHASIS (this scene only):
+{{delivery_emphasis}}
+
+REFERENCE: {{reference_image}}
+
+CAMERA: {{camera_angle}}
+
+PERFORMANCE: {{performance_notes}}
+
+MOTION: {{motion_notes}}
+
+DURATION: ~{{duration_sec}} seconds
+
+AVOID: improvisation, extra words, voice change, evil/angry/demonic expression, character redesign.
