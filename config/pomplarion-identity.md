@@ -11,13 +11,15 @@ Use across every clip. **Voice timbre is locked in** [config/voice-lock.json](co
 - **Set:** Futuristic cryptocurrency broadcast studio — blue and orange HUD, live BTC tickers, charts, cinematic rim light
 - **Expression guardrails:** Confident, warm, professional — never evil, angry, demonic, scary, or aggressive
 
-## Approved voice (placeholder lock)
+## Approved voice (locked)
 
-**Warm, confident, authoritative crypto-podcast host baritone; clear and professional.**
+**Adult male American host raised in Hollywood, Florida; slightly nasal timbre, rapid-fire quick-cadence delivery, unconventional but confident crypto-broadcast energy — distinctive and highly recognizable.**
 
-Same speaker, same mic tone, same pacing family on every mini-scene. Update `config/voice-lock.json` after first approved Imagine clip (anchor MS02).
+Vocal reference: Anthony Pompliano — quick delivery, slightly nasal American accent, unconventional cadence familiar in crypto media. Pomplarion matches that **style family**, not a literal impersonation.
 
-Per-scene `voice_notes` in scene-map are **delivery emphasis only** — never change timbre.
+Same speaker, same nasal Florida-American timbre, same rapid pacing family on every mini-scene. Calibrate on **MS02** (`Pom-PLAIR-ee-on`); re-take MS02 if timbre drifts.
+
+Per-scene `voice_notes` in scene-map are **delivery emphasis only** — never change timbre, accent, or cadence.
 
 ## Motion style (dynamic but controlled)
 

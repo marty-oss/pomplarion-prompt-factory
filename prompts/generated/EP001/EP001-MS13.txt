@@ -4,7 +4,7 @@ EXACT DIALOGUE (say only this):
 SPEECH START: 0.2 to 0.5 seconds. No silent opening. No breathing before speech.
 
 VOICE (locked — identical every clip):
-Warm, confident, authoritative crypto-podcast host baritone; clear and professional
+Adult male American host raised in Hollywood, Florida; slightly nasal timbre, rapid-fire quick-cadence delivery, unconventional but confident crypto-broadcast energy — distinctive and highly recognizable
 Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.
 
 DELIVERY EMPHASIS (this scene only):

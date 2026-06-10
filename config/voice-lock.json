@@ -1,20 +1,20 @@
 {
   "episode_id": "EP001",
-  "approved_from": "TBD — lock after first approved Imagine clip (anchor MS02)",
-  "voice_direction": "Warm, confident, authoritative crypto-podcast host baritone; clear and professional",
-  "delivery": "Natural broadcast host. Same speaker, same mic tone, same pacing family on every clip.",
+  "approved_from": "User voice spec — Hollywood FL male; Pompliano-style rapid nasal crypto-host cadence (lock anchor MS02)",
+  "voice_direction": "Adult male American host raised in Hollywood, Florida; slightly nasal timbre, rapid-fire quick-cadence delivery, unconventional but confident crypto-broadcast energy — distinctive and highly recognizable",
+  "delivery": "Rapid-fire but controlled podcast host. Same speaker, same nasal Florida-American timbre, same quick pacing family on every clip.",
   "continuity_instruction": "Use the exact same voice as every other Pomplarion mini-scene. Do not change pitch, accent, age, or vocal character.",
   "speech_start_sec": "0.2 to 0.5",
   "voice_anchor_mini_scene": "MS02",
   "voice_anchor_instruction": "Match the vocal identity of EP001-MS02 — same speaker, pitch, mic proximity, and pacing family on every clip.",
   "mic_proximity": "Close broadcast microphone, consistent proximity and room tone across all clips.",
-  "vocal_energy_rule": "Change facial emphasis and delivery rhythm only — do not change pitch, timbre, accent, age, or mic tone.",
+  "vocal_energy_rule": "Change facial emphasis and line emphasis only — do not change nasal timbre, Florida-American accent, rapid cadence, age, or mic tone.",
   "voice_negatives": [
     "no narrator voice-over",
     "no cartoon or caricature voice",
     "no whisper or shout",
     "no accent shift",
-    "no younger or higher-pitched voice",
+    "no slow announcer drawl",
     "no different speaker",
     "no dramatic vocal character change"
   ]
